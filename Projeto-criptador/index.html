@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/LogoMorango.png" type="image/x-icon">
+    <title>Detetive Strawberry Decodificador de Texto</title>
+</head>
+<body>
+
+    <main class= "main container"> 
+        <header class="cabecalho">
+            <img src="Imagens/LogoMorango.png" alt="Logo Morango">
+         <div class="title">
+           <h1>Detetive Strawberry Decodificador de Texto</h1>
+        </div>
+            
+        </header> 
+
+    <div class= "container-input">
+        <div class="input">
+            <label for="input-text">Digite o seu texto:</label>
+            <textarea id="input-text"  placeholder="Digite o seu texto"></textarea>
+            <p> Apenas letras minúsculas e sem acento!</p>
+            </div>
+
+    <div id="output">
+        <img src="Imagens/MorangoDetetive.png" alt="Detetive Morango">
+        <h2> Nenhuma mensagem encontrada, aguardando texto para descriptografar.</h2>
+        <span>Digite um texto para que seja descriptografado ou criptografado.</span>
+    </div>
+    </div>
+             
+    <div class="buttons">
+        <div class="container-bnt">
+                <button onclick="criptografar()" class="btn-encriptar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-desencriptar">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+        <footer class="Rodape">
+            <div class="icons">
+                <a href="https://github.com/RhyanStrauss"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.instagram.com/rhyan_strauss/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/wandson-rhyan-6708a9293/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <h3> Desenvolvido por Wandson Rhyan </h3>
+            </div>
+        </footer>
+
+        <script src="interacao/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

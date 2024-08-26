@@ -1,0 +1,116 @@
+*{
+    background: 	#7FFFD4;
+    font-family: "Irish Grover", system-ui;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    display: flex;
+}
+.cabecalho img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 5%;
+}
+.container-input .input {
+    width: 450px;
+    height: 430px;
+    border: 15px double red;
+    border-radius: 15px;
+}
+
+#input-texto {
+    width:  450px;
+    height:  500px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    box-shadow: none;
+    border: 15px double red;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+}
+#output {
+    display: flex;
+    flex-direction: column;
+    border:15px double red ;
+    border-radius: 15px;
+    width: 550px;
+    height: 650px;
+    margin-right: 3%;
+}
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+#output img{
+    max-width: 650px;
+    max-height: 650px;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    background: transparent;
+}
+.container-bnt button{
+    border: 5px solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.bnt-copiar{ 
+    border: 15px double red;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.container-bnt button:hover{
+    border:15px double red;
+    transition: 0.5s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: #00FA9A;
+    color: black;
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: red;
+}
+.icons ion-icon:hover{
+    color: 15px double red;
+}
